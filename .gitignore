@@ -1,0 +1,45 @@
+# .gitignore
+
+# --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.pytest_cache/
+.venv
+venv/
+env/
+dist/
+build/
+
+# --- Machine Learning / Data Science ---
+# No subas datasets pesados o modelos entrenados (.h5, .pt, .pkl)
+*.csv
+*.json
+*.h5
+*.pt
+*.onnx
+*.pkl
+*.npy
+*.npz
+
+# --- LaTeX (Si redactas tus evaluaciones aquí) ---
+*.aux
+*.log
+*.toc
+*.gz
+*.pdf
+*.fdb_latexmk
+*.fls
+*.out
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Configuración de Entorno ---
+.env
+
+# --- uv / Python ---
+.venv/
+uv.lock
