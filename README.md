@@ -21,7 +21,7 @@ This project uses `uv` to manage dependencies without polluting your global envi
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Jorge-1501/ML4SCI-GSoC_2026.git](https://github.com/Jorge-1501/ML4SCI-GSoC_2026.git)
+   git clone https://github.com/Jorge-1501/ML4SCI-GSoC_2026.git
    cd ML4SCI-GSoC_2026
     ```
 2. **Sync the environment:**
