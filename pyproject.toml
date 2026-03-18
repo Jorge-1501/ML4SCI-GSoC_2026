@@ -1,0 +1,12 @@
+[project]
+name = "ml4sci-gsoc-2026"
+version = "0.1.0"
+description = "This repo is for Google Summer of Code 2026, ML4SCI project."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cirq>=1.6.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pennylane>=0.44.1",
+]

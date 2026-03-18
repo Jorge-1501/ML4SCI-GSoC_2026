@@ -13,7 +13,6 @@ dist/
 build/
 
 # --- Machine Learning / Data Science ---
-# No subas datasets pesados o modelos entrenados (.h5, .pt, .pkl)
 *.csv
 *.json
 *.h5
@@ -23,7 +22,7 @@ build/
 *.npy
 *.npz
 
-# --- LaTeX (Si redactas tus evaluaciones aquí) ---
+# --- LaTeX ---
 *.aux
 *.log
 *.toc
@@ -33,11 +32,11 @@ build/
 *.fls
 *.out
 
-# --- Sistema Operativo ---
+# --- Operative System ---
 .DS_Store
 Thumbs.db
 
-# --- Configuración de Entorno ---
+# --- Virtual Environment ---
 .env
 
 # --- uv / Python ---
