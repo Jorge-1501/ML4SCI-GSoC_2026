@@ -30,13 +30,14 @@ This project uses `uv` to manage dependencies without polluting your global envi
    ```
 3. **Activate the environment:**
    ```bash
-   .venv/bin/activate
+   .venv/Scripts/activate
    ```
 4. **Run the notebooks:**
    - Open `Task_I/Task_I.ipynb` for the first exercise.
    - Open `Task_II/Task_II.ipynb` for the second exercise.
    - Open `Task_III/Task_III.ipynb` for the third exercise.
    - Open `Task_IX/Task_IX.ipynb` for the ninth exercise.
-    select the local .venv kernel in Jupyter.
+5. **Jupyter Kernel:** 
+   Make sure to select the local .venv kernel in Jupyter. The name must be ML4SCI-GSoC_2026.
 
 Developed by Jorge Toral, a Physics student at BUAP.
